@@ -1,0 +1,22 @@
+
+SQL> connect as sysdba
+Enter user-name: system
+Enter password:
+Connected.
+
+SQL> create user HIS_APP identified by HIS_APP;
+
+User created.
+SQL> grant connect  to HIS_APP;
+
+Grant succeeded.
+
+SQL> grant resource  to HIS_APP;
+
+Grant succeeded.
+
+SQL> commit;
+
+Commit complete.
+
+SQL>
